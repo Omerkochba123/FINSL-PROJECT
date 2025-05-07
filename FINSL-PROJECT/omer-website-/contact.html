@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Contact Omer</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <a class="header-item-left" href="index.html" title="Home Page">Omer kochba</a>
+            <button class="header-item-center toggle-button" onclick="toggleDarkMode()">
+                Toggel Dark Mode
+            </button>
+            <nav id="navbar" class="navbar">
+                    <ul class="bar-list">
+                        <li class="bar-item-right"><a href="contact.html" title="Contact Me">Contact Me</a></li>
+                        <li class="bar-item-right"><a href="about.html" title="About Me">About Me</a></li>
+                    </ul>
+            </nav>
+        </header>
+        <div class="ContactMe-content">
+            <h1>Contact Omer</h1>
+            <form action="mailto:Kochba.omer@gmail.com?subject=Testing out mailto!&body=dd" method="post">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" placeholder="First Name" required name="fname">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" placeholder="Last Name" required name="lname">
+                <label for="Email">Email:</label>
+                <input type="email" id="Email" placeholder="Email" required name="email">
+                <label for="Subject">Subject</label>
+                <input type="text" id="lname" placeholder="Subject" required name="lname">
+                <label for="message">Your Message:</label>
+                <textarea type="text" id="message" placeholder="Your Message" required name="message" style="resize: vertical;"></textarea>
+                <input type="submit" value="Submit" style="font-size: x-large;">
+              </form>
+              <h2>My Contact Information:</h2>
+              <p>Email: Kochba.omer@gmail.com</p>
+              <p>Phone number: 617 438 0160</p>
+              <p>Social ↓</p>
+        </div>
+        <nav class="footer-nav">
+            <ul class="footer-list">
+                <li class="footer-item"><a href="https://www.facebook.com/kochba.omer/" title="Facebook"><img src="images/social/facebook.jpeg" alt="Facebook"></a></li>
+                <li class="footer-item"><a href="https://www.instagram.com/omer_kochba/" title="Instegram"><img src="images/social/instagram.jpeg" alt="Instagram"></a></li>
+            </ul>
+        </nav>
+    </body>
+</html>
